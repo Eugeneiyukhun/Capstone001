@@ -49,7 +49,7 @@ In this capstone project, I built an online website for a conference
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://eugeneiyukhun.github.io/Capstone001/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
