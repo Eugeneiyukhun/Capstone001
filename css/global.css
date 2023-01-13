@@ -18,7 +18,7 @@ body {
   color: var(--black);
   scroll-behavior: smooth;
 }
-  
+
 *,
 *::before,
 *::after {
@@ -242,7 +242,7 @@ footer img {
   opacity: 0;
   transition: visibility 0.2s, opacity 0.2s linear;
 }
-  
+
 .floating-menu ul {
   list-style: none;
 }
@@ -255,13 +255,13 @@ footer img {
   margin: 50px 0;
   display: block;
 }
-  
+
 @media screen and (min-width: 768px) {
   footer {
     padding: var(--desktop-padding);
     gap: 50px;
   }
-  
+
   .big-nav__button div {
     color: var(--orange);
     border: 4px solid var(--orange);
@@ -269,21 +269,21 @@ footer img {
     width: fit-content;
     padding: 0 12px;
   }
-  
+
   footer > div:first-child {
     width: 400px;
     padding-left: 200px;
     flex: none;
   }
-  
+
   .desktop-only {
     display: block;
   }
-  
+
   .mobile-only {
     display: none;
   }
-  
+
   .small-nav {
     height: 30px;
     background-color: var(--dark-background);
@@ -292,7 +292,7 @@ footer img {
     justify-content: flex-end;
     align-items: center;
   }
-  
+
   .small-nav__menu {
     color: var(--white);
     list-style: none;
@@ -304,11 +304,11 @@ footer img {
     cursor: pointer;
     user-select: none;
   }
-  
+
   .small-nav__menu img {
     height: 15px;
   }
-  
+
   .big-nav {
     height: 70px;
     background-color: var(--white);
@@ -318,46 +318,46 @@ footer img {
     font-size: 12px;
     box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
   }
-  
+
   .big-nav__logo {
     width: 300px;
   }
-  
+
   .header-content__location a,
   .big-nav a {
     text-decoration: none;
     border: none;
     font-weight: 400;
   }
-  
+
   .big-nav__logo img {
     height: 30px;
   }
-  
+
   .big-nav__menu {
     width: calc(100% - 420px);
   }
-  
+
   .big-nav__menu ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .big-nav__menu li {
     margin: 0 20px;
     color: var(--medium);
     cursor: pointer;
   }
-  
+
   .partners li {
     width: calc(100% / 8);
   }
-  
+
   .big-nav__menu li:hover {
     color: var(--orange);
   }
-  
+
   .big-nav__button {
     width: 120px;
     display: flex;
